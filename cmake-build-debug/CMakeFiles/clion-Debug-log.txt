@@ -1,0 +1,22 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/aleksejkorotkov/life2 -B /Users/aleksejkorotkov/life2/cmake-build-debug
+-- The CXX compiler identification is AppleClang 15.0.0.15000040
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error at CMakeLists.txt:12 (find_package):
+  Could not find a package configuration file provided by "QT" with any of
+  the following names:
+
+    Qt6Config.cmake
+    qt6-config.cmake
+    Qt5Config.cmake
+    qt5-config.cmake
+
+  Add the installation prefix of "QT" to CMAKE_PREFIX_PATH or set "QT_DIR" to
+  a directory containing one of the above files.  If "QT" provides a separate
+  development package or SDK, be sure it has been installed.
+
+
+-- Configuring incomplete, errors occurred!
