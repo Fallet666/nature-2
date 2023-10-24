@@ -7,7 +7,7 @@ Now the rendering takes place in a separate window, where there is grass, predat
 Ideas: genetic algorithms, improved reproduction mechanics, balancing algorithms. The most ambitious goal is to write a neuron for each unit, but this is difficult. If you want, you can help)
 
 ## acceleration and deceleration
-By default it works in accelerated mode. to make it slower (update by seconds) comment out update() in draw.cpp, void draw::paintevent() line 380
+By default it works in accelerated mode. to make it slower (update by seconds) comment out update() in draw.cpp, void draw::paintEvent() line 380
 ```Cpp
     /*update();*/} else {
 ```
